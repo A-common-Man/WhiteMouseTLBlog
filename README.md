@@ -11,12 +11,19 @@ WhiteMouseTLBlog使用了.net core 6 和SQLServer开发的。
 使用的Nuget包：
 
 Microsoft.EntityFrameworkCore    -版本6.11 ORM（实体关系映射）框架
+<br/>
 Microsoft.EntityFrameworkCore.Tools    -版本6.11 快速迁移指令工具
+<br/>
 Microsoft.EntityFrameworkCore.SqlServer        -版本6.11 对象关系映射对应数据库
+<br/>
 Microsoft.AspNetCore.Identity.EntityFrameworkCore     -版本6.11 实体关系映射的身份认证
+<br/>
 Microsoft.AspNetCore.Identity.UI         -版本6.11  身份认证UI
+<br/>
 AspNetCoreHero.ToastNotification         -版本1.1.0 通知弹窗
+<br/>
 X.PagedList.Mvc.Core                            -版本8.4.7 实现列表分页翻页
+<br/>
 部署这个网站购买了一个域名和一个Ubuntu20.04的Linux服务器，服务器使用.net core 自带的轻量级跨平台的Kestrel和反向代理服务器Nginx，在Nignx中添加了一个自启动服务。
 
 ## 使用方法
